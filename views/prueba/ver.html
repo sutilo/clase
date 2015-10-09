@@ -1,0 +1,16 @@
+{{left_sidebar_enabled,right_sidebar_enabled=False,('message' in globals())}}
+{{extend 'layout.html'}}
+<h1>encabezado1</h1>
+<h2>{{ =otro}}</h2>
+<h3>{{ =valor}}</h3>
+<p>{{ =word}}</p>
+
+<ul>
+
+{{ for i in range(valor):}}
+<li>{{=i }}</li>
+{{pass}}
+
+
+</ul>
+hola mundo
